@@ -200,6 +200,7 @@ GEMINI_API_KEY=your_api_key_here
 ## 👨‍🎓 Author
 
 **Pratik Thul**
+
 B.Tech – Artificial Intelligence & Data Science
 Full Stack & AI Enthusiast
 
