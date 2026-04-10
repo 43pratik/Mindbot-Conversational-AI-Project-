@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+faiss-cpu
+langchain
+langchain-community
+python-multipart
+langchain-text-splitters
+pypdf
+sentence-transformers 
+google-genai

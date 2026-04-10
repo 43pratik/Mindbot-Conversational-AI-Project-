@@ -1,0 +1,30 @@
+# Ignore ALL node_modules 
+node_modules/
+venv/
+# Frontend build
+mindbot-frontend/dist/
+
+# Backend
+mindbot-backend/venv/
+mindbot-backend/env/
+mindbot-backend/__pycache__/
+mindbot-backend/faiss_index/
+mindbot-backend/uploaded_docs/
+mindbot-backend/.env
+mindbot-backend/*.db
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files (VERY IMPORTANT)
+mindbot-backend/data/
