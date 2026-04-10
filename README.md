@@ -1,4 +1,4 @@
-# 🤖 MindBot – Conversational AI System
+# 🤖 MindBot – Conversational AI Assistent
 
 ## 📌 Overview
 
