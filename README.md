@@ -75,7 +75,7 @@ MindBot/
 │   │   ├── pages/         # Application pages
 │   │   └── services/      # API communication
 │
-└── start-mindbot.bat      # One-click run script
+└── start-mindbot.bat      # double-click run script
 ```
 
 ---
