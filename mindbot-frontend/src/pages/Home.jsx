@@ -109,8 +109,13 @@ export default function Home() {
           });
       } else {
           const formData = new FormData();
-          formData.append("file", selectedImage);
-          if (currentText) formData.append("query", currentText);
+          
+          // FIX 1: We MUST explicitly attach the file name (selectedImage.name) here!
+          formData.append("file", selectedImage, selectedImage.name);
+          
+          // FIX 2: Ensure it is a strict string
+          const safeQuery = currentText.trim() === "" ? "Please describe this image in detail." : currentText;
+          formData.append("query", safeQuery);
 
           response = await fetch("http://localhost:8000/api/vision", {
               method: "POST",
@@ -344,3 +349,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+
